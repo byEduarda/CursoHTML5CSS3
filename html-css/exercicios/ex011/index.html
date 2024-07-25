@@ -8,5 +8,12 @@
 <body>
     <h1>Imagem dinâmica</h1>
     <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+
+    <picture>
+        <source media="(max-width:750px)" srcset="imagens/p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/m.png" type="image/png">
+        <!--se o tam da tela for < 1050 vai carregar a imagem do srcset-->
+        <img src="imagens/g.png" alt="Imagem flexível">
+    </picture>
 </body>
 </html>
