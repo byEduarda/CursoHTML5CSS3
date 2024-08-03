@@ -1,21 +1,32 @@
 @charset "UTF-8";
 
 /*
-class = .
-id = #
+class = . (mais de um elemento)
+id = # (apenas um elemento)
+
 */
 
 body {
-    background-color: rgb(199, 187, 132);
+    background-color: #e6c21091;
     font-family: Arial, Helvetica, sans-serif;
 }
 h1 {
-    color: rgb(155, 98, 13);
+    color: #E68029;
 }
 #principal {
-    background-color: rgba(165, 42, 42, 0.363);
-    color: aliceblue;
+    background-color: rgba(165, 42, 42, 0.233);
+    box-shadow:  3px 3px 17px rgb(223, 128, 65);
+    color: #ffffff;
 }
 h2 {
-    color: rgb(138, 73, 20);
+    color: #E68029;
+}
+.basico {
+    color: #E64B02;
+}
+.avancado {
+    color: #E64B02;
+}
+.intermediario {
+    color: #E68502;
 }
