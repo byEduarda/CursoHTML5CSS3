@@ -1,0 +1,40 @@
+
+body {
+    background-color: #84e1ad;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 600px;
+}
+h1 {
+    font-family: "idroid";
+}
+#topo {
+    color: white;
+    margin-top: 0px;
+    padding: 0px;
+    height: 150px;
+    background-image: linear-gradient(to bottom, #38ca79,#2a9558, #1f6d41);
+}
+footer {
+   
+    color: white;
+    text-align: center;
+    padding: 3px;
+    background-color: #1f6d41;
+}
+footer > p {
+    margin: 0px;
+}
+#rodape {
+    background-color: #84e1ad;
+    border-radius: 10px;
+    padding: 5px;
+}
+#ultimo {
+    background-color: white;
+}
+
+main {
+    background-color: white;
+    
+    width:850px;
+}
