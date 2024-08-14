@@ -30,10 +30,6 @@ body {
     font-family: var(--fonte-padrao)
 } 
 
-p {
-    margin: 15px 0px;
-}
-
 header{
     background-color: var(--cor4);
     min-height: 150px;
@@ -92,6 +88,12 @@ main {
     margin-bottom: 30px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+}
+
+main p {
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 25px;
 }
 
 main h1 {
