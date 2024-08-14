@@ -30,6 +30,10 @@ body {
     font-family: var(--fonte-padrao)
 } 
 
+p {
+    margin: 15px 0px;
+}
+
 header{
     background-color: var(--cor4);
     min-height: 150px;
@@ -101,7 +105,7 @@ main h2 {
 .peq {
     display: block;
     margin: auto;
-    width: 50%;
+    max-width: 350px;
 }
 
 footer {
