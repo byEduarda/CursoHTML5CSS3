@@ -94,16 +94,41 @@ main p {
     margin: 15px 0px;
     text-align: justify;
     text-indent: 25px;
+    font-size: 1em;
+    line-height: 2em;
 }
 
 main h1 {
     font-family: var(--fonte-android);
     color: var(--cor5);
+    
 }
 
 main h2 {
     font-family: var(--fonte-android);
+    font-size: 1.3em;
+    background-image: linear-gradient(to right, var(--cor1), transparent);
 }
+
+main strong {
+    color: var(--cor3);
+    font-weight:bolder;
+    padding: 2px 4px;
+}
+
+main a {
+    text-decoration: none;
+    font-weight: bold;
+    padding: 2px 4px;
+    background-color: #3ddc84;
+    color: #1a5c37;
+}
+
+main a:hover {
+    color: #087939;
+    text-decoration: underline;
+}
+
 .peq {
     display: block;
     margin: auto;
