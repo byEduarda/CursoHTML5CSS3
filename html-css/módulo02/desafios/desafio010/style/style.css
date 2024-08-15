@@ -140,6 +140,7 @@ aside > h3 {
     background-color: var(--cor4);
     margin: -10px -10px 0px -10px;
     border-radius: 10px 10px 0px 0px;
+    
 
 }
 
@@ -147,6 +148,7 @@ aside {
     padding: 10px;
     background-color: var(--cor1);
     border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.603);
 }
 
 aside > ul {
