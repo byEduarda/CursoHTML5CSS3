@@ -97,7 +97,11 @@ main p {
     font-size: 1em;
     line-height: 2em;
 }
-
+main strong {
+    color: var(--cor3);
+    font-weight:bolder;
+    padding: 2px 4px;
+}
 main h1 {
     font-family: var(--fonte-android);
     color: var(--cor5);
@@ -110,11 +114,7 @@ main h2 {
     background-image: linear-gradient(to right, var(--cor1), transparent);
 }
 
-main strong {
-    color: var(--cor3);
-    font-weight:bolder;
-    padding: 2px 4px;
-}
+
 
 main a {
     text-decoration: none;
