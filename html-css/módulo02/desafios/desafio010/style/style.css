@@ -56,6 +56,7 @@ header > p {
     padding-left: 10px;
     padding-right: 10px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.705);
+    margin-bottom: 20px;
 
 }
 
@@ -67,7 +68,7 @@ nav {
 
 nav > a {
     text-decoration: none;
-    color: white;
+    color: var(--cor1);
     padding: 10px;
     font-weight: bold;
 }
@@ -135,6 +136,29 @@ main a:hover {
     margin: auto;
     max-width: 350px;
 }
+
+.video {
+    background-color: #063d1e;
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 50%;
+    position: relative;
+}
+
+.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+aside {
+    padding: 10px;
+    background-color: var(--cor1);
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.603);
+}
 aside > h3 {
     padding: 10px;
     color: white;
@@ -144,14 +168,6 @@ aside > h3 {
     
 
 }
-
-aside {
-    padding: 10px;
-    background-color: var(--cor1);
-    border-radius: 10px;
-    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.603);
-}
-
 aside > ul {
 list-style-position: inside;
 columns: 2;
